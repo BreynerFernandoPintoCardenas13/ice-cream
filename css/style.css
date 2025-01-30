@@ -13,7 +13,7 @@ header{
  */    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 75px 0px 75px;
+    padding: 45px 75px 0px 75px;
 }
 
 .header__logo{
@@ -54,4 +54,46 @@ header{
 
 .header__menu img{
     width: 30px;
+}
+
+/********** MAIN **********/
+
+main{
+    background: green;
+    padding: 45px 75px 0px 75px;
+}
+
+.section__container{
+    background: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.article__jumping{
+    background: violet;
+    display: flex;
+    flex-direction: column;
+    width: 690px;
+
+}
+
+.article__jumping h1{
+    color: var(--color-1);
+    font-family: "Poppins-SemiBold";
+    font-size: 90px;
+    line-height: 90px;
+}
+
+.article__jumping p{
+
+}
+
+
+.div__buttons{
+    background: rebeccapurple;
+    display: flex;
+}
+.div__buttons a{
+
 }
