@@ -441,4 +441,25 @@ input[type=number]::-webkit-outer-spin-button {
 
 }
 
+footer{
+    margin-top: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
 
+footer p{
+    color: var(--color-1);
+    font-family: "Poppins-Regular";
+    font-size: 18px;
+    padding-left: 75px;
+}
+
+.footer_social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 75px;
+    gap: 48px;
+}
